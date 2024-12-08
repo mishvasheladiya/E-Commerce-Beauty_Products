@@ -1,0 +1,85 @@
+/* card.css */
+body{
+    background-color: #f8e5c5;
+}
+
+.card-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-items {
+    margin-top: 20px;
+}
+
+.card-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.card-item img {
+    width: 80px;
+    height: auto;
+    object-fit: contain;
+    margin-right: 10px;
+}
+
+.card-item-details {
+    display: flex;
+    align-items: center;
+}
+
+.card-item-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-item h4 {
+    margin: 0;
+}
+
+.card-item .price,
+.card-item .quantity {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.card-item .quantity {
+    display: flex;
+    align-items: center;
+}
+
+.card-item .quantity label {
+    margin-right: 5px;
+}
+
+.card-item .card-item-remove {
+    background-color: #d9534f;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.card-item .card-item-remove:hover {
+    background-color:  #c9302c;
+}
+
+.order-summary {
+    margin-top: 20px;
+}
+
+.order-total {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}

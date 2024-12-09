@@ -2,5 +2,5 @@
 
 This is an E-Commerce website built using HTML, CSS, and JS.
 
-Check it out here: https://youtu.be/dQnbIsRoNJ4
+Check it out here: https://e-commerce-beauty-products-website.netlify.app/
 
